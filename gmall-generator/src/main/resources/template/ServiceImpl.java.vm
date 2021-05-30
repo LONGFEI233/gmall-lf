@@ -5,26 +5,25 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.atguigu.core.bean.PageVo;
-import com.atguigu.core.bean.Query;
-import com.atguigu.core.bean.QueryCondition;
+import ${package}.common.bean.PageResultVo;
+import ${package}.common.bean.PageParamVo;
 
-import ${package}.${moduleName}.dao.${className}Dao;
+import ${package}.${moduleName}.mapper.${className}Mapper;
 import ${package}.${moduleName}.entity.${className}Entity;
 import ${package}.${moduleName}.service.${className}Service;
 
 
 @Service("${classname}Service")
-public class ${className}ServiceImpl extends ServiceImpl<${className}Dao, ${className}Entity> implements ${className}Service {
+public class ${className}ServiceImpl extends ServiceImpl<${className}Mapper, ${className}Entity> implements ${className}Service {
 
     @Override
-    public PageVo queryPage(QueryCondition params) {
+    public PageResultVo queryPage(PageParamVo paramVo) {
         IPage<${className}Entity> page = this.page(
-                new Query<${className}Entity>().getPage(params),
+                paramVo.getPage(),
                 new QueryWrapper<${className}Entity>()
         );
 
-        return new PageVo(page);
+        return new PageResultVo(page);
     }
 
 }

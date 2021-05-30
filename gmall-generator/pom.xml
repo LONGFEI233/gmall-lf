@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.atguigu.gmall</groupId>
+	<groupId>com.atguigu</groupId>
 	<artifactId>gmall-generator</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<description>gmall-generator基于renren-generator改造的适合本电商项目的代码生成器，
-		主要使用SpringSecurity控制权限</description>
-
+	<description>谷粒商城代码生成器</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -39,11 +37,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!--关闭安全模块，否则需要登陆-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-security</artifactId>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
