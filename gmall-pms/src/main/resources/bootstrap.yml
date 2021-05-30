@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 5a34a37b-c681-46d1-90c3-8b699938843e
+        group: dev
+        file-extension: yml # 配置DataId的扩展名
