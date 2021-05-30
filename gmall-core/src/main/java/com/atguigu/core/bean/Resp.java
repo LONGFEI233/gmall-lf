@@ -1,4 +1,4 @@
-package com.atguigu.gmall.core.bean;
+package com.atguigu.core.bean;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

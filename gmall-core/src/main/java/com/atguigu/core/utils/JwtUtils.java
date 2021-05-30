@@ -1,4 +1,4 @@
-package com.atguigu.gmall.core.utils;
+package com.atguigu.core.utils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;

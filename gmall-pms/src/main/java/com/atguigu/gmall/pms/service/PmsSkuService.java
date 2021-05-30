@@ -1,10 +1,9 @@
 package com.atguigu.gmall.pms.service;
 
-import com.atguigu.gmall.core.bean.PageVo;
-import com.atguigu.gmall.core.bean.QueryCondition;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.atguigu.gmall.pms.entity.PmsSkuEntity;
-
+import com.atguigu.core.bean.PageVo;
+import com.atguigu.core.bean.QueryCondition;
 
 
 /**

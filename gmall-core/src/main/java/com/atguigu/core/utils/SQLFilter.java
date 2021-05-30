@@ -6,9 +6,9 @@
  * 版权所有，侵权必究！
  */
 
-package com.atguigu.gmall.core.utils;
+package com.atguigu.core.utils;
 
-import com.atguigu.gmall.core.exception.RRException;
+import com.atguigu.core.exception.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**

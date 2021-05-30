@@ -1,4 +1,4 @@
-package com.atguigu.gmall.core.utils;
+package com.atguigu.core.utils;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

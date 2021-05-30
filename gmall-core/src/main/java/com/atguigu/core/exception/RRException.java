@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.atguigu.gmall.core.exception;
+package com.atguigu.core.exception;
 
 /**
  * 自定义异常

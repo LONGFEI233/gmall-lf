@@ -1,4 +1,4 @@
-package com.atguigu.gmall.core.exception;
+package com.atguigu.core.exception;
 
 public class OrderException extends RuntimeException {
 

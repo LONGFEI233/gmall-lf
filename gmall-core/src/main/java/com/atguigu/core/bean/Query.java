@@ -6,9 +6,9 @@
  * 版权所有，侵权必究！
  */
 
-package com.atguigu.gmall.core.bean;
+package com.atguigu.core.bean;
 
-import com.atguigu.gmall.core.utils.SQLFilter;
+import com.atguigu.core.utils.SQLFilter;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.commons.lang.StringUtils;

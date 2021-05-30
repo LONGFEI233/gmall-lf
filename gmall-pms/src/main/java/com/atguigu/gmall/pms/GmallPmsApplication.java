@@ -21,7 +21,7 @@ EnableDiscoveryClient -- 服务发现
  */
 @EnableDiscoveryClient
 @EnableFeignClients // 开启feign
-@MapperScan("com.atguigu.gmall.pms.mapper")
+@MapperScan("com.atguigu.gmall.pms.dao")
 @EnableSwagger2
 @RefreshScope // nacos中配置更改，不重启
 public class GmallPmsApplication {
