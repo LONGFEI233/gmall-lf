@@ -34,6 +34,7 @@ feign:
   sentinel:
     enabled: true
 
+
 #mybatis-plus:
 #  mapper-locations: classpath:mapper/pms/**/*.xml #映射路径
 #  mapper-locations: classpath:mapper/pms/*.xml  # 读取映射文件
